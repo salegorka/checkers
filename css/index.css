@@ -1,0 +1,22 @@
+.board {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.coordcell {
+    width: 30px;
+}
+
+.cell {
+    width: 30px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
