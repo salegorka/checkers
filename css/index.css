@@ -1,3 +1,41 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav main ads"
+    "footer footer footer";
+    grid-template-rows: 10vh 1fr 20vh;
+    grid-template-columns: 100px 1fr 200px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    grid-area: header;
+    background: gold;
+}
+
+.navigation {
+    grid-area: nav;
+    background-color: red;
+}
+
+.content {
+    grid-area: main;
+    background-color: white;
+}
+
+.ads {
+    grid-area: ads;
+    background-color: grey;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: lightcoral;
+}
+
 .board {
     width: 300px;
     display: flex;
